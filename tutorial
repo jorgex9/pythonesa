@@ -113,3 +113,26 @@ $ git push origin master
 con esto ahora podemos ver en nuestro explorador de REPOSITORIOs en gitHub que nuestros archivos q fueron addheridos y
 commitiados localmente ahora estan en gitHub 
 
+**************************************************************************
+MANEJO DE RAMAS
+
+para crear una nueva rama en nuestro REPOSITORIO: git branch ramanueva
+con esto creamos una nueva rama con el nombre ramanueva
+
+para ver las ramas que tenemos en nuetro repositorio: git branch 
+nos mostrara una salida con la listas de ramas q tenesmos y un asterisco en el nombre 
+de la rama en la que estamos parados.
+
+para cambiar de rama:$  git checkout ramanueva  
+
+ahora podemos hacer cambios y trabajar en esta rama todo lo queramos los cambios no van a afectar a las otras RAMAS
+si queremos subir esta rama a github hacemos: git push origin ramanueva
+con esto podemos ver que en github los cambis y la nueva rama!.
+
+Menzclando ramas con master : $ git merge ramanueva 
+con esto se unico la rama "ramanueva" con la rama "master"
+
+ahora podemos movernos a master: $ git checkout master
+y subir todo a gitHub: $ git push origin master
+
+
